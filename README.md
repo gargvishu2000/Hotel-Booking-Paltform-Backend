@@ -19,7 +19,7 @@ This repository contains **106 optimized test cases** for the Hotel Management b
 Install dependencies:
 
 ```bash
-bun install
+npm install
 ```
 
 ## Configuration
@@ -35,19 +35,19 @@ const BASE_URL = 'http://localhost:3000'; // Your backend URL
 Run all tests:
 
 ```bash
-bun test
+npm test
 ```
 
 Run with verbose output:
 
 ```bash
-bun test --reporter=verbose
+npm test --reporter=verbose
 ```
 
 Run specific test suite:
 
 ```bash
-bun test -t "POST /api/auth/signup"
+npm test -t "POST /api/auth/signup"
 ```
 
 ## Test Features
@@ -74,5 +74,3 @@ bun test -t "POST /api/auth/signup"
 ✅ Cancellation up to 24 hours before check-in  
 ✅ Review eligibility (after checkout, confirmed bookings)  
 ✅ Strict response format validation
-
-This project was created using `bun init` in bun v1.2.23. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
